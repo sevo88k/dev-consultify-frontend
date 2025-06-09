@@ -1,0 +1,154 @@
+import React from "react";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Link, NavLink } from "react-router-dom";
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+import { useDispatch } from "react-redux";
+import { RegistrationAction } from "../Redux/Action/CustomerAuthAction";
+export default function SignUp() {
+   const dispatch=useDispatch();
+   const formik = useFormik({
+      initialValues: {
+        first_name:  '',
+        last_name:  '',
+        email:  '',
+        password:  '',
+      },
+      validationSchema: Yup.object({
+         first_name: Yup.string().required('First Name is required'),
+         last_name: Yup.string().required('Last Name is required'),
+        email: Yup.string().email().required('Email is required'),
+        password: Yup
+        .string()
+        .required('Please Enter your password')
+        .matches(
+          /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/,
+          "Must Contain 8 Characters, One Uppercase, One Lowercase, One Number and One Special Case Character"
+        ) 
+      
+      }),
+      onSubmit: values => {
+  
+         dispatch(RegistrationAction(values))
+        // Handle step 1 submission
+    
+      },
+    });
+  return (
+   <div className="bg-color">
+
+         {/* Header Start */}
+         <Navbar expand="lg" className="bg-body-tertiary header-main">
+            <Container>
+               <Navbar.Brand href="#">
+                  <img 
+                  // src={require('../assets/img/logo-white.svg').default} 
+                  src={require("../assets/img/consultify-white-logo.svg").default}
+                  alt='logo' />
+               </Navbar.Brand>
+               <Navbar.Toggle aria-controls="basic-navbar-nav" />
+               <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                  <Nav className="">
+                     <p>Already have an account?</p>
+                    
+                     <NavLink to="/" className="white-btn">Login</NavLink>
+                  </Nav>
+               </Navbar.Collapse>
+            </Container>
+         </Navbar>
+         {/* Header End */}
+
+         {/* Signup flow Start */}
+         <section className="signup-content">
+            <div className="container">
+               <div className="row">
+                  <div className="col-lg-12">
+                     <div className="signup-inner">
+                        <h2>Get Started by creating your account!</h2>
+                        <div className="create-acc-form">
+                           <div className="row">
+                              <div className="col-lg-5 pe-0">
+                                 <div className="features">
+                                    <h6>WITH CONSULTIFY YOU CAN:</h6>
+                                    <ul>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                       <li><img src={require('../assets/img/tick.svg').default} alt='tick' /><p>Lorum ipsum</p></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div className="col-lg-7 ps-0">
+                              <form  onSubmit={formik.handleSubmit}>
+                                 <div className="create-account">
+                                       <ul className="">
+                                          <li className="form-grp">
+                                             <input type="text" className="form-control" placeholder="First Name*" name="first_name" 
+                                         value={formik.values.first_name}   onChange={formik.handleChange}
+                                          onBlur={formik.handleBlur}
+                                           />
+                                             {formik.touched.first_name && formik.errors.first_name && (
+                                             <div className='error'>{formik.errors.first_name}</div>
+                                          )}
+                                          </li>
+                                          <li className="form-grp">
+                                             <input type="text" className="form-control" placeholder="Last Name*"  name="last_name" 
+                                         value={formik.values.last_name}   onChange={formik.handleChange}
+                                          onBlur={formik.handleBlur}
+                                           />
+                                             {formik.touched.last_name && formik.errors.last_name && (
+                                             <div className='error'>{formik.errors.last_name}</div>
+                                          )}
+                                          </li>
+                                          <li className="form-grp">
+                                             <input type="email" className="form-control" placeholder="Email*"  name="email" 
+                                         value={formik.values.email}   onChange={formik.handleChange}
+                                          onBlur={formik.handleBlur}
+                                           />
+                                             {formik.touched.email && formik.errors.email && (
+                                             <div className='error'>{formik.errors.email}</div>
+                                          )}
+                                          </li>
+                                          <li className="form-grp">
+                                             <input type="password" className="form-control" placeholder="Password (16+ Characters) *" name="password"  
+                                         value={formik.values.password}   onChange={formik.handleChange}
+                                          onBlur={formik.handleBlur}
+                                           />
+                                             {formik.touched.password && formik.errors.password && (
+                                             <div className='error'>{formik.errors.password}</div>
+                                          )}
+                                          </li>
+                                       </ul>
+                                       <div className="form-checkbox">
+                                          <input type="checkbox" name="checkbox" />
+                                          <label>I accept our <Link to="#">Terms of Service </Link>
+                                             and have read our <Link to="#"> Privacy Notice.</Link>
+                                             If I am a micro- or small enterprise or a not-for-
+                                             profit organization in the EEA or UK, I agree to the
+                                             <Link to="#"> European Electronic Communications Code Rights
+                                                Waiver. </Link></label>
+                                       </div>
+                                       <div className="submit-btn">
+                                          <button  type="submit" className="lg-btn">
+                                             Register Now
+                                          </button>
+                                       </div>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         {/* Signup flow End */}
+      </div>
+  )
+}

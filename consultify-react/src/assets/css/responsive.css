@@ -1,0 +1,379 @@
+@media screen and (max-width:1700px) {
+.banner-section {
+    background-size: 60%;
+   
+}
+
+
+
+}
+
+@media screen and (max-width:1200px) {
+    .salon_logo img {
+    margin-top: -20%;
+    width: 150px;
+}
+.searchresult_inner .bottom_info ul {
+   width: 50%;
+}
+.product_view.details h1 {
+    font-size: 45px;
+}
+.product_view.details span {
+    font-size: 17px;
+
+}
+.result_view .hdngs {
+    font-size: 28px;
+}
+.result_view .sub_hdng {
+    font-size: 17px;
+}
+.product_view.details p {
+    font-size: 17px;
+}
+.product_view.details ul li {
+    color: #0A4949;
+    font-size: 17px;
+}
+.schedule_top .client_cmn_heading {
+    margin-right: 0; 
+}
+
+.salon_search_tab {
+    width: 45%;
+    
+}
+
+.consultationform_tab .steps {
+    width: 60%;
+
+}
+.form-bottom {
+    width: 30%;
+   
+}
+}
+
+
+@media only screen and (max-width:991px){
+    .banner-section {
+        background-position: top;
+    }
+    .banner-content .row {
+        flex-direction: column-reverse;
+    }
+    .banner-title {
+
+        margin: 70px 0 0 0;
+    }
+    .banner-img img {
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+    .create-acc-form {
+        height: 100%;
+        max-width: unset;
+        width: 100%;
+    }
+    .create-acc-form .col-lg-5 {
+        padding-right: calc(var(--bs-gutter-x)/ 2) !important;
+    }
+    .create-acc-form .col-lg-7 {
+        padding-left: calc(var(--bs-gutter-x)/ 2) !important;
+    }
+    .features {
+        border-radius: 6px 6px 0 0;
+    }
+    .create-account {
+        border-radius: 0 0 6px 6px;
+    }
+    .header-main .navbar-nav p {
+        margin: 15px 0 20px 0;
+        justify-content: flex-start;
+    }
+    .header-main .navbar-toggler {
+        color: rgba(255, 255, 255, 0.55);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    .header-main .navbar-toggler-icon {
+        filter: invert();
+    }
+    .standard-plan {
+        margin: 0 0 30px 0;
+    }
+    .subscription-plan{
+        max-width: unset;
+        width: 100%;
+    }
+    .saloon_profile_main {
+    padding: 10px 25px;
+    
+}
+.srch_bar .search-input {
+    width: 100%;
+    margin-top: 20px;
+}
+.accord_tab .accord_body_content h3 {
+    font-size: 16px;
+}
+.accord_tab .acrd_rght .green-box.nav-link {
+    font-size: 16px;
+}
+.searchresult_inner .bottom_info ul {
+    width: 70%;
+}
+.logo-main {
+    width: 30%;
+    margin-bottom: 30px;
+}
+.user_info {
+    padding: 25px;
+}
+.banner-section {
+    background-size: contain;
+   
+}
+.banner-title h1 {
+  
+  font-size: 40px;
+}
+
+.banner_inner h2 {
+    font-size: 50px;
+}
+.salon_search_tab {
+    width: 65%;
+}
+.saloon_card {
+    
+    width: calc(100%/3);
+}
+.form-bottom {
+    width: 50%;
+}
+.contact_prefer {
+    margin-top: 10px;
+
+}
+}
+
+@media only screen and (max-width:767px){
+    .banner-img img {
+       width: 100%;
+    }
+    .video-section .mobile-video {
+        display: block !important;
+    }
+    .video-section .desktop-video{
+        display: none !important;
+    }
+    .start_consultation .fave {
+  margin: auto;
+  display: flex;
+  width: 100%;
+}
+.salon_logo img {
+    margin-top: -20%;
+}
+.s-banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.search-input.result {
+    width: 50%;
+}
+.product_view.details h1 {
+    font-size: 42px;
+}
+.product_view.details span {
+    font-size: 16px;
+
+}
+.result_view .hdngs {
+    font-size: 26px;
+}
+.result_view .sub_hdng {
+    font-size: 16px;
+}
+.product_view.details p {
+    font-size: 16px;
+}
+.product_view.details ul li {
+    color: #0A4949;
+    font-size: 16px;
+}
+
+.banner_inner h2 {
+    font-size: 40px;
+}
+.salon_search_tab {
+    width: 100%;
+}
+
+.saloon_card {
+    width: calc(100%/2);
+}
+.form_cmn_heading {
+    font-size: 30px;
+    color: #000;
+}
+.consultationform_tab .steps {
+    width: 100%;
+}
+.form-bottom {
+    width: 70%;
+}
+.top_form .form-select {
+    width: 40%;
+    margin: 0;
+}
+}
+
+@media only screen and (max-width:565px){
+ 
+    .register-section {
+        background: #0A4949;
+        height: 65vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .form-content h2 {
+        margin: 0 auto 30px auto;
+        font-size: 22px;
+    }
+.search-input {
+    width: 100%;
+    position: relative;
+}
+.form_box {
+   
+    padding: 20px 20px;
+
+}
+.form_box label {
+    font-size: 16px;
+}
+.accord_tab .accordion-header h3 {
+    font-size: 16px;
+}
+.accord_tab .accord_logo {
+    width: 40px;
+    margin-right: 10px;
+}
+.accord_tab .accord_body_content h3 {
+    font-size: 16px;
+}
+.accord_tab .acrd_rght .green-box.nav-link {
+    padding: 0 32px;
+    font-size: 14px;
+    height: 32px;
+}
+.accord_tab .services_count {
+    font-size: 15px;
+   
+}
+.accord_tab button.accordion-button {
+    padding: 10px 10px;
+}
+.saloon-view .green-box.nav-link {
+    width: 250px;
+    
+}
+.saloon_profile_main p {
+    font-size: 14px;
+}
+.searchresult_inner p {
+    font-size: 14px;
+}
+.searchresult_inner .bottom_info ul li a {
+    font-size: 14px;
+}
+.searchresult_inner .bottom_info ul {
+    width: 100%;
+}
+.result_view .productmain_wrap .top_info {
+    padding-bottom: 25px;
+}
+.result_view .prev_main {
+    padding: 0;
+}
+.result_view .productmain_wrap .medical_info {
+    padding-bottom: 15px;
+}
+.result_view .productmain_wrap .products {
+    padding-bottom: 15px;
+}
+.client_cmn_heading {
+    font-size: 17px;
+    
+}
+.saloon_card {
+    width: 100%;
+}
+.banner_inner h2 {
+    font-size: 30px;
+}
+.select_list ul li {
+    margin: 5px 0;
+    padding: 10px 18px;
+}
+.salon_search_tab h3 {
+    font-size: 20.875px;
+}
+.form-bottom {
+    width: 80%;
+}
+.form_Questions {
+    padding: 28px 20px;
+    margin: 20px 0;
+}
+.fixed_sec .fixed_inner .nav-link:first-child {
+    font-size: 17px;
+    padding: 10px 45px;
+   
+}
+.fixed_sec .fixed_inner .nav-link:last-child {
+    font-size: 17px;
+    padding: 10px 50px;
+}
+}
+
+@media only screen and (max-width:440px){
+ 
+    .register-section {
+        height: 100vh;
+    }
+    .form-detail ul .form-grp {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .consulting_form h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+}
+    .accord_tab .accord_body_content h3 {
+    font-size: 14px;
+}
+.accord_tab .acrd_lft p {
+    font-size: 14px;
+}
+.srch_bar h2 {
+    font-size: 27px;
+}
+.search-input.result {
+    width: 100%;
+}
+.form-bottom {
+    width: 100%;
+}
+.top_form h2 {
+    font-size: 22px;
+}
+
+}

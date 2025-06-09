@@ -1,0 +1,1690 @@
+@media screen and (max-width:1700px) {
+.banner-section {
+    background-size: 60%;
+   
+}
+
+}
+@media screen and (max-width:1400px){
+.myaccount_tabcmn .nav-link {
+    font-size: 15px;
+   
+    padding-right: 15px !important;
+}
+.dash-options h2 {
+    margin-bottom: 40px;
+   
+}
+.tabs-two-main a img {
+    width: 50px;
+    height: 50px;
+}
+.tabs-two-main a {
+    height: 180px;
+}
+.side-options a {
+    height: 80px;
+    
+}
+.toggle-sec {
+    margin-bottom: 25px;
+}
+.new-fixed-btns {
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #000;
+    padding: 15px 100px;
+    bottom: 0px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 0 !important;
+}
+}
+@media screen and (max-width:1200px) {
+    .salon_logo img {
+    margin-top: -20%;
+    width: 150px;
+}
+.searchresult_inner .bottom_info ul {
+   width: 50%;
+}
+.search-content-left p {
+  
+    max-width: 370px;
+   
+}
+.product_view.details h1 {
+    font-size: 45px;
+}
+.product_view.details span {
+    font-size: 17px;
+
+}
+.result_view .hdngs {
+    font-size: 28px;
+}
+.result_view .sub_hdng {
+    font-size: 17px;
+}
+.product_view.details p {
+    font-size: 17px;
+}
+.product_view.details ul li {
+    color: #0A4949;
+    font-size: 17px;
+}
+.schedule_top .client_cmn_heading {
+    margin-right: 0; 
+}
+.search-content-right a {
+    margin: 5px 10px;
+}
+.consulting_form h2 {
+   
+    font-size: 30px;
+ 
+}
+.client_cmn_heading {
+    font-size: 17px;
+}
+.bod_cmn {
+    padding: 19px 0;
+    max-height: 370px;
+
+}
+.schedule_top .nav-link {
+    padding: 12px 12px;
+    font-size: 12px;
+}
+.schedule .table-responsive {
+   
+    height: 230px;
+}
+.appointment .table-responsive {
+    
+    height: 238px;
+}
+.buisness_form_fields input {
+    width: 50%;
+    
+}
+.buisness_hours .row {
+    padding: 0;
+}
+.forum-main-page.view {
+    
+    max-width: 930px;
+    
+}
+.view-medical-history .modal-dialog .modal-content {
+   margin: auto;
+    width: 730px;
+ 
+}
+.view-medical-history .accordion-item h3 {
+ 
+    font-size: 16px;
+   
+}
+.toggle-btns .form-check label {
+   
+    height: 30px;
+     width: 60px;
+}
+.accordian-sec label {
+  
+    font-size: 13px;
+  
+}
+.view-medical-history .modal-header .h4 {
+
+    font-size: 30px;
+   
+}
+.view-medical-history .accordion-item .accordion-header .accordion-button {
+   
+    font-size: 16px;
+   
+}
+.view-medical-history .modal-dialog {
+    min-width: 730px;
+    min-height: 760px;
+    margin: auto;
+    display: table;
+}
+.consultationform_tab .steps.two {
+    width: 70%;
+}
+}
+
+
+@media only screen and (max-width:991px){
+    .banner-section {
+        background-position: top;
+    }
+    .banner-content .row {
+        flex-direction: column-reverse;
+    }
+    .banner-title {
+
+        margin: 70px 0 0 0;
+    }
+    .banner-img img {
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+    .create-acc-form {
+        height: 100%;
+        max-width: unset;
+        width: 100%;
+    }
+    .side-options-main {
+    display: flex;
+    gap: 17px;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .consultationform_tab .steps.two {
+    width: 85%;
+}
+    .create-acc-form .col-lg-5 {
+        padding-right: calc(var(--bs-gutter-x)/ 2) !important;
+    }
+    .create-acc-form .col-lg-7 {
+        padding-left: calc(var(--bs-gutter-x)/ 2) !important;
+    }
+    .features {
+        border-radius: 6px 6px 0 0;
+    }
+    .create-account {
+        border-radius: 0 0 6px 6px;
+    }
+    .header-main .navbar-nav p {
+        margin: 15px 0 20px 0;
+        justify-content: flex-start;
+    }
+    .header-main .navbar-toggler {
+        color: rgba(255, 255, 255, 0.55);
+        border-color: rgba(255, 255, 255, 0.1);
+    }
+    .header-main .navbar-toggler-icon {
+        filter: invert();
+    }
+    .standard-plan {
+        margin: 0 0 30px 0;
+    }
+    .subscription-plan{
+        max-width: unset;
+        width: 100%;
+    }
+    .saloon_profile_main {
+    padding: 10px 25px;
+    
+}
+.srch_bar .search-input {
+    width: 100%;
+    margin-top: 20px;
+}
+.accord_tab .accord_body_content h3 {
+    font-size: 16px;
+}
+.accord_tab .acrd_rght .green-box.nav-link {
+    font-size: 16px;
+}
+.searchresult_inner .bottom_info ul {
+    width: 70%;
+}
+.logo-main {
+    width: 165px;
+    height: 165px;
+  
+}
+.user_info {
+    padding: 15px;
+}
+.banner-section {
+    background-size: contain;
+   
+}
+.banner-title h1 {
+  
+  font-size: 40px;
+}
+.header-blck {
+   
+    background: #fff;
+}
+.header-blck.navbar-light .navbar-nav .nav-link {
+   
+    color: #0a4949;
+    
+}
+.signup-content {
+    padding: 90px 0;
+}
+.search-list-part {
+    margin-top: 30px;
+}
+.white-box-link-outline {
+    width: 145px;
+    height: 43px;
+    font-size: 16px;
+}
+.you_know {
+    margin-bottom: 12px;
+        display: none;
+}
+.myaccount_tabcmn .navbar-nav {
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 692px;
+}
+.myaccount_tabcmn .nav-link {
+    font-size: 15px;
+    padding-right: 15px !important;
+    width: max-content;
+}
+::-webkit-scrollbar {
+    display: block!important;
+}
+.bg-color.dashboard-option {
+    height: 100vh !important;
+   
+}
+.account-btn {
+ 
+    display: block;
+  
+    
+}
+.desk-view {
+    position: fixed;
+    left: -320px;
+    right: 0;
+    background: #fff;
+    z-index: 1111;
+    padding: 85px 15px;
+    width: 300px;
+    bottom: 0;
+    top: 0;
+    transition: 0.5s ease;
+    box-shadow: rgb(100 100 111 / 9%) 0px 7px 29px 0px;
+}
+.desk-view.mob-view {
+    left: 0;
+}
+.close-menu {
+    /* position: absolute; */
+    right: 15px ;
+    /* border-radius: 44.65px;
+    background: #FFF;
+    box-shadow: 0px 0px 14.866px 0px rgba(0, 0, 0, 0.10); */
+    top: 15px ;
+    display: block ;
+    /* width: 40px;
+    height: 40px; */
+}
+/* .side-options-main {
+   
+    gap: 10px;
+    width: 90%;
+    
+} */
+
+.notes-add .notes-buttons {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+}
+
+@media only screen and (max-width:767px){
+
+    .dob-input {
+        padding: 8px;
+        font-size: 16px;
+      }
+    
+      .calendar-icon {
+        font-size: 18px;
+        padding: 8px;
+      }
+    
+      .modal-content h2 {
+        font-size: 16px;
+      }
+    
+      .close-modal {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+
+    /* .side-options-main {
+        gap: 10px;
+        width: 94%;
+    } */
+
+    .banner-img img {
+       width: 100%;
+    }
+    .video-section .mobile-video {
+        display: block !important;
+    }
+    .video-section .desktop-video{
+        display: none !important;
+    }
+    .start_consultation .fave {
+  margin: auto;
+  display: flex;
+  width: 100%;
+}
+.salon_logo img {
+    margin-top: -20%;
+}
+.s-banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.search-input.result {
+    width: 50%;
+}
+.product_view.details h1 {
+    font-size: 42px;
+}
+.product_view.details span {
+    font-size: 16px;
+
+}
+.submit-btn.c-prefer {
+    width: fit-content;
+}
+.result_view .hdngs {
+    font-size: 26px;
+}
+.result_view .sub_hdng {
+    font-size: 16px;
+}
+.product_view.details p {
+    font-size: 16px;
+}
+.product_view.details ul li {
+    color: #0A4949;
+    font-size: 16px;
+}
+.search-content-right a {
+    margin:0 10px;
+}
+.banner-title h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+.view-form {
+    padding: 114px 0 0 0;
+}
+.med-btn {
+    font-size: 17px;
+    width: 100%;
+
+}
+.view-forum-inner{
+       margin-bottom: 25px;
+    font-size: 16px;
+    
+}
+.search-list-box {
+    padding-top: 30px;
+}
+.white-box-link-outline {
+    width: 100%;
+    font-size: 15px;
+    margin: 0!important;
+    margin-bottom: 5px!important;
+}
+.green-box-link-fill {
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+     margin: 0!important;
+}
+.consult-edit {
+    top: 0px;
+    right: 55px;
+}
+.consult-delete {
+    top: 7px;
+}
+.tab-links li a {
+    font-size: 17px;
+}
+.create_white-box-link {
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.main_heading h1 {
+    font-size: 30px;
+}
+.myaccount_tabcmn .navbar-nav {
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 590px;
+}
+.buisness_hours .row {
+    padding: 20px 0px;
+}
+.buisness_form_fields input {
+    width: 40%;
+}
+.buisness_form_fields p {
+    font-size: 15px;
+    width: 50px;
+
+}
+.form_cmn_heading {
+    font-size: 34px;
+    
+}
+.consultaing_detailsform .form-label {
+    font-size: 18px;
+    
+}
+.form_field .f_field {
+    padding-bottom: 10px;
+}
+.custom_msg {
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.dash-options-cards a {
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.consult-view {
+    top: 0px!important;
+    
+}
+.tabs-two-main a img {
+    width: 35px;
+    height: 35px;
+}
+.tabs-two-main a p {
+   margin-top: 8px;
+    font-size: 16px;
+    width: 100%;
+    
+}
+.new-fixed-btns {
+    position: fixed;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #000;
+    padding: 15px 10px;
+    bottom: 0px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 0 !important;
+}
+.submit-btn .btn.mb-3 {
+    padding: 10px 20px;
+    height: 50px;
+
+   
+    width: 100%;
+   
+    font-size: 16px;
+}
+.salon_profile select.form-select {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.side-options-main .side-options {
+    width: calc(100% / 3);
+}
+.view-medical-history .modal-dialog {
+    min-width: fit-content;
+    
+}
+.view-medical-history .modal-dialog .modal-content {
+    margin: auto;
+    width: fit-content;
+}
+.consultationform_tab p.w-50 {
+    width: 100% !important;
+}
+.search-content-left p {
+        max-width: 273px;
+    }   
+    .docs-add-sec {
+    height: 264px;
+    overflow-y: scroll;
+}
+.search-content-right.mobile-view .d-flex {
+    width: 100%;
+    gap: 10px;
+}
+.search-content-right.mobile-view button.green-box-link-fill {
+    width: 100% !important;
+    margin-right: 0 !important;
+}
+    .search-content-right.mobile-view .d-flex a.white-box-link-outline.nav-link {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+.search-content-right a {
+   width: 100% !important;
+    margin-bottom: 0 !important;
+   
+}
+.consults-btn-set button:first-child {
+   
+    display: none !important;
+}
+.mobile-view-bth {
+  
+    display: block!important;
+    cursor: pointer;
+}
+.tab-fixmob-btns button {
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.tab-fixmob-btns {
+    display: flex;
+}
+.side-options a {
+    height: 80px;
+    max-width: 100%;
+}
+/* .react-datepicker {
+    display: contents;
+    width: 100%;
+    margin: auto;
+    
+} */
+
+}
+@media only screen and (max-width:575px){
+
+    .set-new-btn-align {
+        margin: auto;
+    }
+    .client-box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .user_info.bod_cmn .client_cmn_heading {
+        text-align: center;
+    }
+
+    .bod_cmn {
+        max-height: 431px;
+    }
+
+    .rs-picker-daterange-calendar-group {
+        height: auto;
+        min-width: 100%;
+    }
+    .rs-picker-daterange-menu .rs-calendar {
+        display: block;
+    }
+
+    .settings-tab .accordion-header .accordion-button.collapsed {
+        color: #000;
+    }
+
+    .settings-tab a {
+        color: #000;
+    }
+    .custom-select-container input {
+        width: 308px;
+        font-size: 23px;
+    }
+.mob-view-name {
+    display: table-cell;
+        border-radius: 40px 0px 0px 40px;
+}
+.mob-view-name p {
+    display: none;
+}
+.pre-care.attached a {
+    width: 130px;
+}
+.saved-signature img {
+    width: 1000px;
+}
+.pre-care.attached h3 {
+    font-size: 15px;
+    color: #0A4949;
+}
+.search-input.hiden-mob {
+    display: none;
+}
+button.new-appoint.mob-view {
+    width: 100%;
+}
+    .search-list-part.presents .consultation-box-btns {
+        position: absolute;
+        top: 5px;
+        right: -18px;
+        padding-top: 0;
+    }
+        .user_info {
+        padding: 12px;
+    }
+    section.search-list-part.presents .consult-edit {
+    right: 62px !important;
+    top: 11px;
+}
+    table.client_table.client_page thead tr th {
+    border: none;
+}
+.desktop-view-name {
+    display: none;
+}
+div#divToPrint {
+    margin-top: 70px;
+}
+.consult-delete {
+    border: none;
+    position: absolute;
+    top: 6px;
+    right: 40px;
+    cursor: pointer;
+}
+section.search-list-part.presents {
+    margin-top: 30px;
+    
+}
+section.cmn-sec-headings .white-box-link.create_white-box-link.presets {
+    margin-bottom: 0 !important;
+}
+.cmn-sec-headings .mob-btn-set .button-link {
+    width: 100%;
+}
+.pdf-download-btns .white-box-link.nav-link {
+    width: 100%;
+}
+section.search-list-part.presents.mob-view {
+    margin: 0;
+}
+.cmn-sec-left.mob-view p {
+    margin: 0;
+}
+    .register-section {
+        background: #0A4949;
+        height: 65vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .form-content h2 {
+        margin: 0 auto 30px auto;
+        font-size: 22px;
+    }
+.client_table td {
+  
+    border-radius: 0;
+}
+.search-input {
+    width: 100%;
+            margin-bottom: 10px;
+    position: relative;
+}
+.form_box {
+   overflow: hidden;
+    padding: 20px 20px;
+
+}
+div#signature-pad {
+    overflow: hidden;
+    border-radius: 11px;
+    border-right: 1px solid #d8d8d8;
+}
+.custom-select-selected {
+    color: #000;
+    font-size: 30px;
+
+}
+#signature-pad canvas {
+    width: 1000px;
+}
+.new-fixed-btns .d-flex {
+    flex-direction: column;
+    gap: 9px;
+}
+.salon_profile select.form-select {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+.expand-field:hover .input-group input.form-control {
+    width: 100px;
+    transition: 0.5s ease;
+    padding-left: 5px;
+}
+    .side-options-main .side-options {
+        /* width: calc(95% / 2); */
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+        
+        /* display: flex;
+        justify-content: center; */
+    }
+    .account_form textarea::placeholder {
+    font-size: 13px;
+}
+.cmn-sec-headings .button-link a {
+    margin-bottom: 20px !important;
+}
+.form_box label {
+    font-size: 16px;
+}
+.accord_tab .accordion-header h3 {
+    font-size: 16px;
+}
+.accord_tab .accord_logo {
+    width: 40px;
+    margin-right: 10px;
+}
+.accord_tab .accord_body_content h3 {
+    font-size: 16px;
+}
+.accord_tab .acrd_rght .green-box.nav-link {
+    padding: 0 32px;
+    font-size: 14px;
+    height: 32px;
+}
+.accord_tab .services_count {
+    font-size: 15px;
+   
+}
+.accord_tab button.accordion-button {
+    padding: 10px 10px;
+}
+.saloon-view .green-box.nav-link {
+    width: 250px;
+    
+}
+.saloon_profile_main p {
+    font-size: 14px;
+}
+.searchresult_inner p {
+    font-size: 14px;
+}
+.searchresult_inner .bottom_info ul li a {
+    font-size: 14px;
+}
+.searchresult_inner .bottom_info ul {
+    width: 100%;
+}
+.result_view .productmain_wrap .top_info {
+    padding-bottom: 25px;
+    padding-top:0 ;
+}
+
+.result_view .productmain_wrap .medical_info {
+    padding-bottom: 15px;
+}
+.result_view .productmain_wrap .products {
+    padding-bottom: 15px;
+}
+.client_cmn_heading {
+    font-size: 17px;
+    
+}
+    .form_cmn_heading {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+.consultaing_detailsform .form-label {
+    font-size: 16px;
+    
+}
+.consultaing_detailsform input::placeholder {
+    font-size: 15px;
+}
+.consultaing_detailsform textarea::placeholder {
+    font-size: 15px;
+}
+.myaccount_tabcmn .navbar-nav {
+    width: 430px;
+}
+.bod_cmn {
+  
+    height: 350px;
+}
+    .logo-main {
+        width: 130px;
+        height: 130px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+.user_info.bod_cmn p {
+    color: #5F6368;
+   
+    margin-bottom: 0;
+}
+.user_info.bod_cmn {
+    margin-top: 10px;
+    height: fit-content;
+}
+.consultaing_detailsform {
+    padding: 25px 20px;
+}
+.consultaing_detailsform .form-select {
+    font-size: 13px;
+    padding: 6px 14px;
+    width: 100%;
+    margin: 10px 0;
+}
+.lg-btn.w-set {
+    width: 120px;
+    height: 44px;
+    padding: 0;
+    font-size: 16px;
+}
+button.edit-btn {
+    background: none;
+    border: none;
+    padding-top: 0;
+}
+.form_field .f_field {
+    padding-bottom: 5px;
+}
+.schedule_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+button.submit_big_button {
+    width: 200px;
+   
+}
+.upload_img_div {
+    font-size: 14px;
+}
+.create-account {
+    padding: 40px 25px;
+}
+.buisness_form_fields select {
+    width: 24%;
+   
+}
+.staff_data p {
+    font-size: 14px;
+}
+.staff_data {
+    padding-left: 15px;
+}
+.staff_data h3 {
+    font-size: 18px;
+}
+.staff_profile {
+   
+    padding: 15px 10px;
+}
+.profile_left img {
+    width: 68px;
+    height: 68px;
+    object-fit: cover;
+}
+.aside ul li a {
+    font-size: 14px;
+}
+.aside ul li {
+    
+    padding: 8px 18px;
+}
+.account_form input::placeholder {
+    font-size: 13px;
+}
+.account_form input {
+    font-size: 13px;
+}
+.you_know {
+    padding: 20px 20px;
+    
+}
+.you_know p {
+    font-size: 13px;
+    line-height: 1.3;
+}
+.plan-features li h3 {
+    font-size: 15px;
+}
+.plan-features li {
+    padding: 4px 0;
+}
+.subscription-type {
+  
+    padding-bottom: 20px;
+}
+.header-blck.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+}
+.schedule_details ul li h3 {
+    font-size: 16px;
+    
+}
+.schedule_details ul li h4 {
+    font-size: 12px;
+    
+}
+.schedule_main .fc-toolbar-title {
+    font-size: 20px;
+        margin-left: 0;
+   
+}
+.white-box-link.nav-link {
+    width: 180px;
+    font-size: 16px;
+   
+}
+.account_form .form-select {
+   
+    font-size: 13px;
+}
+.consultationform_tab {
+    padding-top: 100px;
+    flex-direction: column-reverse;
+}
+.consultationform_tab .steps {
+    width: 100%;
+  
+}
+.pdf-download {
+    padding-top: 70px;
+}
+.consultationform_tab .steps a {
+    color: #0A4949;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0;
+}
+    .consultaing_detailsform input {
+        padding: 10px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .info-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+.consulation_form .submit-btn .lg-btn {
+    font-size: 15px;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+}
+.signup-inner h2 {
+
+    font-size: 24px;
+    margin: 0 0 25px 0;
+}
+.signup-content {
+        height: 100%;
+    padding-top: 5px;
+   padding-bottom: 10px;
+}
+.bg-color {
+   
+    height: 100vh;
+    padding-bottom: 35px;
+}
+.features {
+    
+    padding: 20px 20px;
+    
+}
+.top_form select {
+    width: 52%!important;
+    font-size: 12px!important;
+}
+.consultaing_detailsform .options {
+    margin-top: 13px;
+}
+.client_consulation form {
+    padding: 35px 5px;
+  
+}
+.treatement_form_header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px 30px;
+    justify-content: center;
+}
+.treat_form {
+    padding: 0 11px;
+}
+.availability_set ul li {
+   
+    margin-left: 0;
+}
+.availability_set ul li h3 {
+    font-size: 15px;
+    
+}
+.tick_available .nav-link {
+
+    font-size: 13px;
+    
+}
+.options-form-images .form-check img {
+    width: 100px;
+}
+.prev_main a {
+    
+    padding-left: 10px;
+}
+.product_view.details h1 {
+    font-size: 35px;
+}
+.result_view .hdngs {
+    font-size: 22px;
+}
+.tab-links {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+.tab-links li a {
+    font-size: 15px;
+}
+       .search-list-box {
+        padding: 12px 15px 20px 15px;
+        margin-top: 15px;
+    }
+.manage_image_upload p {
+    height: 125px;
+   
+}
+.consultation-presents-tabs select.form-select {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+.form_card h2 {
+    font-size: 16px;
+    margin-bottom: 18px;
+    
+}
+.form_card label {
+    font-size: 16px;
+   
+}
+.client_consulation .wset {
+    width: 100%;
+}
+.appointment .table-responsive {
+    height: 293px;
+}
+.schedule .table-responsive {
+    height: 287px;
+}
+.video_call_frame {
+    
+    width: 140px;
+  
+}
+.tests .table-responsive {
+    height: 288px;
+    overflow-y: scroll;
+}
+.dash-options-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dash-options h2 {
+    font-size: 30px;
+   margin-bottom: 25px;
+}
+.dash-options {
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+button.consult-view {
+ 
+    position: unset;
+   
+}
+.consult-edit {
+   
+    top: 0px !important;
+   
+}
+.consultation-box-btns {
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+}
+.acc-button {
+    margin: auto;
+        padding-top: 12px;
+        display: none;
+}
+.acc-button p {
+    font-size: 22px;
+   
+}
+.banner-content .row {
+    flex-direction: column;
+}
+.banner-title {
+    margin: 29px 0 25px 0;
+}
+.searchresult_inner {
+   
+    padding: 15px 20px;
+   
+}
+.searchresult_inner p {
+  
+    margin: 0;
+}
+.tab-links ul {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+ul.yes_no_main {
+  
+    width: 66px;
+   
+}
+.client_consulation .form-select {
+   
+    font-size: 14px;
+}
+.accord_main_staff .accordion-header button {
+  
+    font-size: 18px;
+   
+}
+.plan-type-name h3 {
+    color: #5F6368;
+    font-size: 15px;
+    font-weight: 600;
+}
+.side-options a {
+   margin: 0;
+    /* height: 130px !important; */
+    width: 100%;
+    max-width: 100%;
+    
+}
+.tabs-two-main {
+    padding-top: 41px;
+}
+.nav-menu-new .dropdown-menu {
+    left: -266px !important;
+    width: 320px;
+}
+.search-content-right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center!important;
+            z-index: 11;
+        position: relative;
+    gap: 10px;
+}
+
+.contact_prefer {
+    height: 325px;
+    padding: 10px 13px;
+   
+}
+.search-content-right .white-box-link-outline {
+   width: 150px !important;
+    margin-bottom: 0 !important;
+    margin-right: 10px !important;
+        margin-left: 10px !important;
+
+}
+.search-content-right .green-box-link-fill {
+   width: 150px !important;
+    margin-right: 10px !important;
+        margin-left: 10px !important;
+    margin-bottom: 0 !important;
+}
+.colored-btn:hover {
+    font-size: 15px;
+}
+.uncolored-btn:hover {
+       font-size: 15px;
+}
+.new-appoint {
+   
+    margin-top: 12px;
+   
+}
+    .consultation-presents-tabs .d-flex {
+        gap: 8px;
+        flex-wrap: wrap;
+        display: block !important;
+        width: 100%;
+    }
+    .consultation-presents-tabs .expand-field {
+    margin-top: 14px;
+    width: 100%;
+}
+/* .account_form button {
+    margin-top: -10px;
+    margin-bottom: 15px;
+   
+} */
+.consultation-presents-tabs button.active-tab {
+   
+    margin-bottom: 10px;
+}
+.edit_btns {
+  
+    padding-top: 15px;
+}
+.fc-view-harness.fc-view-harness-active .fc-dayGridMonth-view.fc-view.fc-daygrid {
+    box-shadow: none;
+    height: 500px;
+}
+table.fc-scrollgrid.fc-scrollgrid-liquid {
+    border-radius: 0;
+}
+.notes-add .d-flex.justify-content-end.align-items-center.flex-wrap.mb-3.position-relative {
+    margin-bottom: 0 !important;
+}
+.create_white-box-link {
+    padding: 13px 30px;
+    font-size: 16px;
+}
+
+.search_result.topic-view {
+    padding-bottom: 220px;
+    height: 100% !important;
+}
+.side-options-main {
+    gap: 20px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.consult-btn {
+  
+    margin-bottom: 10px;
+    
+}
+button.trash-btn p {
+    display: none;
+}
+.add_bottom_tab p {
+   display: block;
+}
+.add-btn-form {
+  
+    width: 145px;
+   
+}
+button.trash-btn.bin {
+    display: flex;
+    gap: 3px;
+    width: 52px;
+    align-items: center;
+}
+.trash-btn {
+    width: 45px;
+   
+    display: flex;
+    align-items: center;
+}
+.mobile-none {
+    display: none;
+}
+.consultationform_tab .steps.two {
+    width: 100%;
+}
+    .expand-field .input-group input.form-control {
+        width: 100%!important;
+        padding-left: 12px;
+    }
+    .expand-field .input-group {
+  
+   
+    display: flex;
+    width: 100%;
+ 
+    flex-wrap: nowrap;
+}
+.client-consult .consult-header-mob {
+    display: flex!important;
+    justify-content: end;
+}
+    .consultation-presents-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+.margin-top-set .d-flex.justify-content-end.align-items-start.col-lg-6 {
+    display: block !important;
+}
+.margin-top-set .consult-btn {
+   width: 100%;
+   display: block;
+}
+img.time-copy {
+   
+    padding: 7px;
+    top: -26px;
+    right: 1px;
+}
+.buisness_form_fields .form-select {
+   
+    margin: 5px 0px !important;
+
+}
+    .search-content-left h2 {
+        font-size: 15px;
+        width: 200px;
+        line-height: 1.3;
+    }
+.sub-heading {
+  
+    font-size: 14px;
+}
+    .search-content-left p {
+        max-width: 273px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    .account_form label {
+  
+    margin-top: 8px;
+}
+.mob-hide {
+    display: none !important;
+}
+.margin-top-set .button-link.ms-2 {
+    margin: 0 !important;
+}
+.cmn-sec-headings .mob-btn-set {
+    justify-content: center !important;
+}
+
+.add-tick {
+   
+    display: none !important;
+}
+.activity-btns {
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.schedule.bod_cmn.set.activity-tab {
+    height: 403px;
+}
+.fade.edit-client-pop .modal-dialog {
+    min-width: 100%;
+    margin: 0;
+}
+.draft-btn-set {
+    display: flex;
+    justify-content: center!important;
+}
+.logo_upload {
+    text-align: center;
+    padding-right: 0;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
+.column-reverse .search-input {
+    margin-top: 15px;
+}
+.left-instruct button {
+   
+    width: 100%;
+  
+}
+.right-instruct button {
+   margin-top: 10px!important;
+       width: 100%;
+  
+}
+.buisness_form_fields input {
+    width: 100%;
+}
+.client-consult.precare .client_consulation {
+    padding: 15px 10px 15px 10px;
+}
+.form_field .f_field {
+    padding-bottom: 20px;
+}
+span.profile-view-mob {
+    display: block;
+    margin-top: 35px;
+}
+.docs-right-options {
+    gap: 10px;
+}
+.upload-doc-main {
+    
+    gap: 17px;
+    margin: 13px 15px;
+   
+}
+.uploaded-doc-box {
+   
+    padding: 8px 15px;
+  
+}
+.schedule_top .nav-link {
+ 
+    margin: 0 2px;
+ 
+}
+.consults-btn-set {
+    position: absolute;
+    right: 17px;
+    gap: 10px;
+    z-index: 11;
+}
+.create_tab.new-fixed-btns.edit-form {
+    margin-bottom: 0px !important;
+    position: unset;
+    padding-left: 0;
+    padding-right: 0;
+}
+.edit-form-mob {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.create_tab.new-fixed-btns.edit-form span button {
+    width: 100%;
+    font-size: 15px;
+}
+.custom-select-container.precare .custom-select-selected h2 {
+    font-size: 30px;
+}
+.schedule_main .fc .fc-button-primary {
+    
+    padding: 10px 15px;
+    width: 70px;
+    height: 40px;
+   
+}
+.forum-box h3 {
+   
+    font-size: 16px;
+   
+    line-height: 1.3;
+   
+}
+.delete-consult {
+   
+    padding: 10px 10px;
+   
+}
+.create_tab.new-fixed-btns.create .d-flex.justify-content-between {
+    flex-direction: row;
+}
+.submit-btn.c-prefer button {
+    padding: 10px 40px !important;
+}
+section.search-list-part.presents .consult-view-btn {
+    width: 100%!important;
+}
+.consultation-presents-tabs.precare.d-block .preacknowledgement-box {
+    padding: 15px 20px;
+    display: block;
+}
+.consultation-presents-tabs.precare.d-block select {
+    margin: 9px 0;
+}
+.submit-btn.schedule.p-0 button {
+    padding: 10px 50px;
+}
+}
+
+@media only screen and (max-width:440px){
+    .register-section {
+        height: 100vh;
+    }
+    .form-detail ul .form-grp {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .consulting_form h2 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+    .accord_tab .accord_body_content h3 {
+    font-size: 14px;
+}
+.accord_tab .acrd_lft p {
+    font-size: 14px;
+}
+.srch_bar h2 {
+    font-size: 27px;
+}
+.search-input.result {
+    width: 100%;
+}
+.buisness_form_fields p {
+    font-size: 15px;
+    width: 100%;
+}
+.account_form .form-select {
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+.buisness_form_fields select {
+    width: 30%;
+}
+.edit_btns button img {
+    width: 30px;
+    height: 30px;
+}
+.edit_btns img {
+    width: 30px;
+    height: 30px;
+}
+.edit_btns {
+    width: fit-content;
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
+}
+.account_form {
+    padding: 10px;
+
+}
+.buisness_form_fields {
+
+    border-bottom: 2px solid #d8d8d8;
+    padding: 20px 0;
+}
+.submit-btn .btn.mb-3 {
+    width: 219px;
+   
+}
+.submit-btn.consult-form button {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+    width: 150px !important;
+    padding: 10px 0px !important;
+}
+.custom-select-container input {
+    width: 317px;
+}
+.cmn-sec-left h2 span {
+    display: flex;
+}
+
+}
+
+
+@media(max-width:400px){
+    .search-content-right .white-box-link-outline {
+   width: 140px !important;
+    margin-bottom: 0 !important;
+    margin-right: 5px !important;
+        margin-left: 5px !important;
+
+}
+.search-content-right .green-box-link-fill {
+   width: 140px !important;
+    margin-right: 5px !important;
+        margin-left: 5px !important;
+    margin-bottom: 0 !important;
+}
+
+}
+
+
+@media(max-width:390px){
+    .side-options-main {
+        gap: 10px;
+        column-gap: 10px;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        grid-template-columns: 1fr;
+    }
+
+    .side-options a {
+        margin: 0;
+        /* height: 130px !important; */
+        width: 100%;
+        max-width: 100%;
+    }
+    .side-options-main .side-options {
+        /* width: calc(95% / 2); */
+        height: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .bg-color {
+   
+        height: auto !important;
+        padding-bottom: 35px !important
+    }
+}
+
