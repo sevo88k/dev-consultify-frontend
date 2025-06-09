@@ -16,7 +16,7 @@ const FaqComponent = () => {
     const location = useLocation()
     const queryParams = new URLSearchParams(location.search);
     const ids = queryParams.get("categoryId");
-    const  categoryId = Decryptedid(atob(ids));
+    const categoryId = ids ? Decryptedid(atob(ids)) : null;
     const [isLoading, setIsLoading] = useState(true); 
 
     const faqlist = useSelector((state) => state.myaccount?.faqlist);
@@ -24,11 +24,15 @@ const FaqComponent = () => {
     const [search, setSearch] = useState('');
 
     useEffect(() => {
+        if (!categoryId) {
+            navigate('/faqs-category');
+            return;
+        }
         setIsLoading(true);
-        dispatch(informationlistAction({Faq_category_id : categoryId}))
-        .then(() => setIsLoading(false))
-        .catch(() => setIsLoading(false));
-    }, [dispatch])
+        dispatch(informationlistAction({ Faq_category_id: categoryId }))
+            .then(() => setIsLoading(false))
+            .catch(() => setIsLoading(false));
+    }, [dispatch, categoryId, navigate])
 
     const filteredFaqs = faqlist?.filter((faq) =>
         faq.question.toLowerCase().includes(search.toLowerCase())
