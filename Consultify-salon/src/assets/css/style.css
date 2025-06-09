@@ -521,7 +521,8 @@ button.close-menu svg {
 
 /* SignUp */
 .bg-color {
-  background: linear-gradient(90deg, #0b4a4a 0%, #427272 100%);
+  /* override dashboard background for development builds */
+  background: #e6f7ff;
   /* height: 100vh; */
 }
 
@@ -7086,4 +7087,16 @@ label {
 
 .text-primary {
   color: #427272!important;
+}
+
+/* Visible marker for development builds */
+.dev-build-overlay {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  pointer-events: none;
 }

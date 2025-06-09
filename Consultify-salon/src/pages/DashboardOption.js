@@ -398,6 +398,7 @@ export default function DashboardOption() {
           </div>
         </div>
       </div>
+      <div className="dev-build-overlay">DEV BUILD</div>
     </div>
   );
 }
