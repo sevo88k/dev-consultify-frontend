@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b25b6c72b5624220bf66ee5f3e27d88e","collectionName":"staffopeninghours","type":"collection"}
