@@ -6347,8 +6347,7 @@ h4.activity-heading {
   border: none;
   font-weight: 400;
   line-height: normal;
-  width: fit-content;
-  min-width: 235px;
+  width: 425px;
   padding: 12px 20px;
   transition: 0.5s ease;
 }
