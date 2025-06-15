@@ -61,7 +61,7 @@ export default function PreCarePresents() {
         </Row>
       </section>
       <section>
-        <div className="consultation-presents-tabs d-block">
+        <div className="consultation-presets-tabs d-block">
           <Row className="column-reverse">
             <Col lg={4}>
               <button type="button" className="active-tab mob-hide">

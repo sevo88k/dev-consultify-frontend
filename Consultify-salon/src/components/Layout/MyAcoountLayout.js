@@ -168,11 +168,11 @@ const MyAcoountLayout = ({ children, DidYouKnow }) => {
                       </Link>
                       <Link
                         className={
-                          window.location.pathname == "/consultation-presents"
+                          window.location.pathname == "/consultation-presets"
                             ? "setting-active"
                             : " "
                         }
-                        to="/consultation-presents"
+                        to="/consultation-presets"
                       >
 
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

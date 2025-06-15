@@ -570,7 +570,7 @@ Completed
             </div>
           </Col>
           <Col lg={5} className="d-flex justify-content-end align-items-start">
-            <Link to="/consultation-presents" className="consult-btn mob-hide">
+            <Link to="/consultation-presets" className="consult-btn mob-hide">
               Consultation Settings
             </Link>
             <div className="button-link ms-2">
@@ -591,7 +591,7 @@ Completed
       {selecteddrop == 0 && (
         <>
           <section>
-            <div className="consultation-presents-tabs mt-4">
+            <div className="consultation-presets-tabs mt-4">
               <div className="d-flex">
                 <Form.Select
                   aria-label="Default select example"
