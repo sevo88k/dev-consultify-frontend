@@ -37,7 +37,7 @@ export default function CustomEmail() {
         </Row>
       </section>
       <section>
-        <div className="consultation-presents-tabs">
+        <div className="consultation-presets-tabs">
           <div className="d-flex">
             <button type="button" className="active-tab mob-hide">
               View All <span>(4)</span>

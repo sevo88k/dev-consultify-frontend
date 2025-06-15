@@ -174,7 +174,7 @@ export default function PreCareAcknowledgement() {
       </section>
       {/* tab-links */}
       {/* search header */}
-      <section className="mb-4 consultation-presents-tabs d-block">
+      <section className="mb-4 consultation-presets-tabs d-block">
         <Row>
           <Col
             xs={12}
