@@ -352,7 +352,7 @@ export default function PreCare() {
       )}
       {selecteddrop == 1 && (
         <>
-          <section className="mb-4 consultation-presents-tabs precare d-block">
+          <section className="mb-4 consultation-presets-tabs precare d-block">
             <Row>
               <Col
                 xs={12}

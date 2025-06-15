@@ -1109,7 +1109,7 @@ button.submit_big_button {
     height: 125px;
    
 }
-.consultation-presents-tabs select.form-select {
+.consultation-presets-tabs select.form-select {
     width: 100%;
     max-width: 100%;
     margin: 0;
@@ -1272,13 +1272,13 @@ ul.yes_no_main {
     margin-top: 12px;
    
 }
-    .consultation-presents-tabs .d-flex {
+    .consultation-presets-tabs .d-flex {
         gap: 8px;
         flex-wrap: wrap;
         display: block !important;
         width: 100%;
     }
-    .consultation-presents-tabs .expand-field {
+    .consultation-presets-tabs .expand-field {
     margin-top: 14px;
     width: 100%;
 }
@@ -1287,7 +1287,7 @@ ul.yes_no_main {
     margin-bottom: 15px;
    
 } */
-.consultation-presents-tabs button.active-tab {
+.consultation-presets-tabs button.active-tab {
    
     margin-bottom: 10px;
 }
@@ -1373,7 +1373,7 @@ button.trash-btn.bin {
     display: flex!important;
     justify-content: end;
 }
-    .consultation-presents-tabs {
+    .consultation-presets-tabs {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1548,11 +1548,11 @@ span.profile-view-mob {
 section.search-list-part.presents .consult-view-btn {
     width: 100%!important;
 }
-.consultation-presents-tabs.precare.d-block .preacknowledgement-box {
+.consultation-presets-tabs.precare.d-block .preacknowledgement-box {
     padding: 15px 20px;
     display: block;
 }
-.consultation-presents-tabs.precare.d-block select {
+.consultation-presets-tabs.precare.d-block select {
     margin: 9px 0;
 }
 .submit-btn.schedule.p-0 button {

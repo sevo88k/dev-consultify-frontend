@@ -79,7 +79,7 @@ export default function Settings() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
-            <Link to="/consultation-presents">
+            <Link to="/consultation-presets">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

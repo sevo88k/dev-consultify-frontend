@@ -121,7 +121,7 @@ export default function EditConsultationForm3Preset({
   // const submitform = () => {
 
   //   dispatch(addConsultationAction(formDatavalue)).then(function () {
-  //     navigate("/consultation-presents");
+  //     navigate("/consultation-presets");
   //   });
   // };
 
