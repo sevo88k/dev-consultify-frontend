@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"c9fcb51db67c4e35aaa53ffb1e474d42","collectionName":"postcares","type":"collection"}
