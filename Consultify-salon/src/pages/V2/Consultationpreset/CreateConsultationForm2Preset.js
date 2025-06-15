@@ -176,7 +176,7 @@ export default function CreateConsultationForm2Preset({
               alt="logo"
             />
           </Navbar.Brand>
-          <NavLink className="exit_btn" to="/consultation-presents">
+          <NavLink className="exit_btn" to="/consultation-presets">
             Exit
           </NavLink>
         </Container>
@@ -232,7 +232,7 @@ export default function CreateConsultationForm2Preset({
                 formDatavalue.draft = 0;
                 dispatch(addConsultationAction(formDatavalue)).then(
                   function () {
-                    navigate("/consultation-presents");
+                    navigate("/consultation-presets");
                   }
                 );
               } else {

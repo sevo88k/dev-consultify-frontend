@@ -36,7 +36,7 @@ export default function CreateConsultationOptions({}) {
               alt="logo"
             />
           </Navbar.Brand>
-          <NavLink className="exit_btn" to="/consultation-presents">
+          <NavLink className="exit_btn" to="/consultation-presets">
             Exit
           </NavLink>
         </Container>

@@ -152,7 +152,7 @@ export default function ConsultationPresents() {
     navigate(
       "/edit-consultation-presets-form?id=" +
         encodedEncrypted +
-        "&path=consultation-presents"
+        "&path=consultation-presets"
     );
   }, []);
 
@@ -192,7 +192,7 @@ export default function ConsultationPresents() {
         </Row>
       </section>
       <section>
-        <div className="consultation-presents-tabs">
+        <div className="consultation-presets-tabs">
           <div className="d-flex">
             <Form.Select
               aria-label="Default select example"
@@ -273,7 +273,7 @@ export default function ConsultationPresents() {
                     to={
                       "/consultation-preset-view/" +
                       Encryptedid(item?._id) +
-                      "/consultation-presents"
+                      "/consultation-presets"
                     }
                   >
                     View
@@ -418,7 +418,7 @@ export default function ConsultationPresents() {
                   to={
                     "/attach-presets-view/" +
                     Encryptedid(item?._id) +
-                    "/consultation-presents"
+                    "/consultation-presets"
                   }
                 >
                   View

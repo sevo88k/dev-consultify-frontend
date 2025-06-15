@@ -21,7 +21,7 @@ export default function CreateConsultationForm4Preset({ formData, prevStep }) {
   const submitform = () => {
     console.log(formData, "formData");
     dispatch(addConsultationAction(formData)).then(function () {
-      navigate("/consultation-presents");
+      navigate("/consultation-presets");
     });
   };
 
@@ -64,7 +64,7 @@ export default function CreateConsultationForm4Preset({ formData, prevStep }) {
               alt="logo"
             />
           </Navbar.Brand>
-          <NavLink className="exit_btn" to="/consultation-presents">
+          <NavLink className="exit_btn" to="/consultation-presets">
             Exit
           </NavLink>
         </Container>

@@ -198,7 +198,7 @@ const RoutesPage = () => {
 
           <Route path="/pre-care" element={<PreCare />} />
           <Route
-            path="/consultation-presents"
+            path="/consultation-presets"
             element={<ConsultationPresents />}
           />
           <Route path="/settings" element={<Settings />} />

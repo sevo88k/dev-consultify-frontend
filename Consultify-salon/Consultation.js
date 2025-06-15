@@ -392,7 +392,7 @@ const Consultation = () => {
       {/* new consultation  */}
       {/* search list */}
       <section>
-        <div className="consultation-presents-tabs mt-4">
+        <div className="consultation-presets-tabs mt-4">
           <div className="d-flex">
             <Form.Select
               aria-label="Default select example"
